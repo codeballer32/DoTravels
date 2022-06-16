@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dotravel.com</title>
+
+     <!-- font awesome cdm link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+
+    <!-- customs css stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- header section starts -->
+    <header>
+
+        <div id="menu-bar" class="fas fa bars"></div>
+
+        <a href="#" class="logo"><span>DO</span> Travel</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search" ></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="button" value="Login Now" class="btn">
+            <input type="checkbox" name="" id="checkbox">
+            <label for="checkbox">Remember Me</label>
+            <p>Forget Password? <a href="">click here</a></p>
+            <p>Don't Have An Account? <a href="">Register Now</a></p>
+        </form>
+    </div>
+
+    <!-- home section starts -->
+
+    <secion class="home" id="home">
+
+        <div class="content">
+            <h3>your dreams are worthwhile</h3>
+            <p>Explore your dreams with us, the adventure awaits!</p>
+            <a href="#" class="btn">Discover More</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="images/vid-1.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-2.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-3.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-4.mp4"></span>
+            <span class="vid-btn" data-src="images/vid-5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="images/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+    </secion>
+
+    <!-- home section ends -->
+
+    <!-- book section starts -->
+
+    <section class="book" id="book">
+
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/book-img.svg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputbox">
+                    <h3>Where To</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputbox">
+                    <h3>How Many</h3>
+                    <input type="text" placeholder="number of guests">
+                </div>
+                <div class="inputbox">
+                    <h3>Arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputbox">
+                    <h3>Leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="Book Now">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- book section ends -->
+
+
+    <!-- packages section starts -->
+    
+    <section class="packages" id="packages">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="content">
+                    <img src="images/p-1.jpg" alt="">
+                    <h3><i class="fas fa-map-marker-alt"></i>Mumbai</h3>
+                    <p>An abundance of historical and cultural sites makes Mumbai one of
+                     the country's most fascinating destinations.</p>
+                    <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <img src="images/p-2.jpg" alt="">
+                    <h3><i class="fas fa-map-marker-alt"></i>Hawaii</h3>
+                    <p>World-class beaches, pristine rainforests, and sizzling volcanoes are
+                     just a few things that make Hawaii a hotspot for tourists. </p>
+                    <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$90.00 <span>$120.00</span></div>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <img src="images/p-3.jpg" alt="">
+                    <h3><i class="fas fa-map-marker-alt"></i>Sydney</h3>
+                    <p>It's got great food, stunning scenic views, the beach AND
+                     the city within a manageable radius, a multicultural population.
+                    </p>
+                    <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    </div>
+                    <p class="price">$100.00 <span>$140.00</span></p>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <img src="images/p-4.jpg" alt="">
+                    <h3><i class="fas fa-map-marker-alt"></i>Paris</h3>
+                    <p>The French capital is one of the most romantic cities in Europe
+                     and one of the world's most visited cities.  It has a reputation of being a romantic and cultural city. </p>
+                    <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$120.00 <span>$150.00</span></div>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+            </div>
+            
+            <div class="box">
+                <div class="content">
+                    <img src="images/p-5.jpg" alt="">
+                    <h3><i class="fas fa-map-marker-alt"></i>Tokyo</h3>
+                    <p>Having an open mind as you move through the city can lead you to interesting shops,
+                     restaurants and just sights found off the beaten path.</p>
+                    <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$100.00 <span>$120.00</span></div>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="content">
+                    <img src="images/p-6.jpg" alt="">
+                    <h3><i class="fas fa-map-marker-alt"></i>Eygyt</h3>
+                    <p>Egypt is an amazing country that offering rich and diverse culture; 
+                        its people speak different accents, eat distinctive food and have interesting 
+                        traditions. </p>
+                    <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price">$110.00 <span>$120.00</span></div>
+                    <a href="" class="btn">Book Now</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- packages section ends -->
+
+
+    <!-- services section starts -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                    <i class="fas fa-hotel"></i>
+                    <h3>Affordable Hotels</h3>
+                    <p>Hostels are the cheapest and most accessible accommodation for budget travelers.
+                     Hostels have a variety of rooms that go from private to 30+ mixed bed bunks. The bigger/p>
+            </div>
+            <div class="box">
+                    <i class="fas fa-utensils"></i>
+                    <h3>Food And Drinks</h3>
+                    <p>High-quality foods include unrefined, minimally processed foods such as
+                     vegetables and fruits, whole grains, healthy fats and healthy sources of protein</p>
+            </div>
+            <div class="box">
+                    <i class="fas fa-bullhorn"></i>
+                    <h3>Safety Guide</h3>
+                    <p>The road ahead may be long and winding but you'll make it there safe and sound.
+                    all planned and systematic actions necessary to afford adequate confidence that a
+                     product, a service, an organisation or a functional system achieves acceptable or tolerable safety.
+                    </p>
+            </div>
+            <div class="box">
+                    <i class="fas fa-globe-asia"></i>
+                    <h3>Around The World</h3>
+                    <p>exposes us to different cultures and ancient traditions and through these authentic 
+                    encounters, we learn to embrace and celebrate both our similarities and our differences. 
+                    Travel teaches us about humanity and gives us an appreciation, understanding and respect for different points of view and ways of life.</p>
+            </div>
+            <div class="box">
+                    <i class="fas fa-plane"></i>
+                    <h3>Fastest Travel</h3>
+                    <p>With reduced limitations and newer limits, it's easier to make mates when you're travelling. 
+                    Social interactions end up being a breeze, the small talk gets effortless and you end up meeting new people 
+                    who are more so than not have a lot in common with you and are on the same wave length</p>
+            </div>
+            <div class="box">
+                    <i class="fas fa-hiking"></i>
+                    <h3>Adventures</h3>
+                    <p>Adventure is all about taking each experience, regardless if you know the
+                     outcome or not and facing it head-on. It is about seeing the world from a different
+                     perspective, even if you've seen it a million times before.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section starts -->
+
+
+    <!-- gallery section starts -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="images/g-1.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Mountains Top</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-2.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>The Peace Of The Wave</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+                </div>
+            <div class="box">
+                <img src="images/g-3.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Historical Grounds</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-4.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Explore Fears</p>
+                    <a href="#" class="btn">Se More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-5.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Great Places</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+                </div>
+            <div class="box">
+                <img src="images/g-6.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Feel Free, Be Free</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-7.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Fly, and Enjoy the Beauty From Above</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+                </div>
+            <div class="box">
+                <img src="images/g-8.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Enjoy Camp Life</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+                </div>
+            <div class="box">
+                <img src="images/g-9.jpg" alt="">
+                <div class="content">
+                    <h3>Amazing Places</h3>
+                    <p>Explore Historical Egypt life</p>
+                    <a href="#" class="btn">See More</a>
+                </div>
+                </div>
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+
+    <!-- review section starts -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="review-swiper">
+
+            <div class="review swipper-wrapper">
+
+                <div class="review-slide">
+                    <div class="box">
+                        <img src="images/pic1.png" alt="">
+                        <h3>Rachel George</h3>
+                        <p>We really enjoyed the trip. Everything was well organised and loved 
+                        all the tour guides and hotel staff were very nice.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-slide">
+                    <div class="box">
+                        <img src="images/pic2.png" alt="">
+                        <h3>John Dewel</h3>
+                        <p>It was a wonderful experience with you guys . 
+                        Thank you for taking care of each and every thing . You made our trip memorable .</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-slide">
+                    <div class="box">
+                        <img src="images/pic3.png" alt="">
+                        <h3>Katrina Lee</h3>
+                        <p>Thank you for smooth and lovely trip,seeing forward for more. 
+                        Thank you for smooth and lovely trip,seeing forward for more.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="review-slide">
+                    <div class="box">
+                        <img src="images/pic4.png" alt="">
+                        <h3>MJ</h3>
+                        <p>Wonderful experience, first time in Dubai for 5 days. Enjoyed a lot.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- contact section starts -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+
+        <div class="row">
+
+            <div class="image">
+                <img src="images/contact-img.svg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" id="" name="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="Send Message" >
+            </form>
+        
+        </div>
+
+    
+    </section>
+    <!-- contact section starts -->
+
+
+    <!-- brand section -->
+
+    <section class="brand-container">
+
+        <div class="swiper brand swiper">
+            <div class="slider-slide"><img src="images/1.jpg" alt=""></div>
+            <div class="slider-slide"><img src="images/2.jpg" alt=""></div>
+            <div class="slider-slide"><img src="images/3.jpg" alt=""></div>
+            <div class="slider-slide"><img src="images/4.jpg" alt=""></div>
+            <div class="slider-slide"><img src="images/5.jpg" alt=""></div>
+            <div class="slider-slide"><img src="images/6.jpg" alt=""></div>
+        </div>
+
+    </section>
+
+
+    <!-- footer section -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>We are a main online travel organization in America giving a best as far as a class can tell with the objective to be  America's Travel Planner.</p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="#">India</a>
+                <a href="#">USA</a>
+                <a href="#">Japan</a>
+                <a href="#">France</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="home">Home</a>
+                <a href="Book">Book</a>
+                <a href="Packages">Packages</a>
+                <a href="services">Services</a>
+                <a href="gallery">gallery</a>
+                <a href="review">Review</a>
+                <a href="Contact">Contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Linkedin</a>
+            </div>
+        </div>
+
+        <h1  class="credit">created by <span>David OGIEVA</span> | All rights Reserved!</h1>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
